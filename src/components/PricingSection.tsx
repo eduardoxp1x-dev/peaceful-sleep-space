@@ -155,65 +155,35 @@ const PricingSection = () => {
           </div>
         </div>
 
-        {/* Pricing Cards */}
-        <div className="mb-14">
+        {/* Pricing Card */}
+        <div className="mb-14 max-w-lg mx-auto">
           <div className="text-center mb-10">
             <h3 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-3">
-              Escolha o Plano Ideal Para Você
+              Comece Agora
             </h3>
             <p className="font-body text-muted-foreground text-[17px]">
               Quanto vale para você voltar a dormir bem?
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <PricingCard
-              tier="Essencial"
-              price="R$97"
-              bestFor="Acesso ao método completo com os 4 módulos principais."
-              CTA="COMEÇAR AGORA"
-              benefits={[
-                { text: "4 Módulos do Método", checked: true },
-                { text: "Acesso vitalício", checked: true },
-                { text: "Garantia de 7 dias", checked: true },
-                { text: "Bônus exclusivos", checked: false },
-                { text: "Suporte prioritário", checked: false },
-              ]}
-              onCtaClick={handleCheckout}
-            />
-            <PricingCard
-              tier="Completo"
-              price="R$197"
-              bestFor="Método completo + bônus exclusivos para resultados mais rápidos."
-              CTA="QUERO ESTE PLANO"
-              benefits={[
-                { text: "4 Módulos do Método", checked: true },
-                { text: "Acesso vitalício", checked: true },
-                { text: "Garantia de 7 dias", checked: true },
-                { text: "3 Bônus exclusivos", checked: true },
-                { text: "Suporte prioritário", checked: false },
-              ]}
-              className="border-primary/40 shadow-glow"
-              onCtaClick={handleCheckout}
-            />
-            <PricingCard
-              tier="Premium"
-              price="R$297"
-              bestFor="Experiência completa com acompanhamento e suporte dedicado."
-              CTA="ACESSO PREMIUM"
-              benefits={[
-                { text: "4 Módulos do Método", checked: true },
-                { text: "Acesso vitalício", checked: true },
-                { text: "Garantia de 7 dias", checked: true },
-                { text: "3 Bônus exclusivos", checked: true },
-                { text: "Suporte prioritário", checked: true },
-              ]}
-              onCtaClick={handleCheckout}
-            />
-          </div>
+          <PricingCard
+            tier="Método Completo"
+            price="R$197"
+            bestFor="Acesso completo ao método + bônus exclusivos. Pagamento único, sem mensalidades."
+            CTA="QUERO VOLTAR A DORMIR BEM"
+            benefits={[
+              { text: "4 Módulos do Método", checked: true },
+              { text: "Acesso vitalício", checked: true },
+              { text: "Garantia de 7 dias", checked: true },
+              { text: "3 Bônus exclusivos", checked: true },
+              { text: "Suporte dedicado", checked: true },
+            ]}
+            className="border-primary/40 shadow-glow"
+            onCtaClick={handleCheckout}
+          />
 
           <p className="font-body text-muted-foreground text-center mt-6 text-sm">
-            Pagamento único. Sem mensalidades. Sem taxas escondidas. Parcele em até 12x.
+            Pagamento único. Sem mensalidades. Parcele em até 12x de R$19,50.
           </p>
         </div>
 
