@@ -6,9 +6,6 @@ const SolutionSection = () => {
       <div className="container mx-auto px-6 max-w-3xl">
         {/* The Hidden Truth */}
         <div className="text-center mb-20">
-          <span className="inline-block text-sm font-body font-medium text-primary mb-5 tracking-widest uppercase">
-            A Descoberta
-          </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-7 text-foreground leading-tight">
             Mas Aqui Está Algo Que{" "}
             <span className="text-gradient">Pouquíssimas Pessoas Sabem</span>
