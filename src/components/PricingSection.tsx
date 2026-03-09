@@ -176,7 +176,7 @@ const PricingSection = () => {
               { text: "Acesso vitalício", checked: true },
               { text: "Garantia de 7 dias", checked: true },
               { text: "3 Bônus exclusivos", checked: true },
-              { text: "Suporte dedicado", checked: true },
+              
             ]}
             className="border-primary/40 shadow-glow"
             onCtaClick={handleCheckout}
