@@ -7,14 +7,14 @@ const FooterSection = () => {
       <div className="container mx-auto px-6 max-w-3xl text-center">
         {/* Two Options */}
         <div className="mb-20">
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-10 text-foreground leading-[1.15]">
+          <h2 className="font-display text-2xl md:text-3xl font-bold mb-10 text-foreground leading-tight">
             Isso Significa Que Você Tem <span className="text-gradient">Duas Opções</span> Agora
           </h2>
           
           <div className="grid md:grid-cols-2 gap-7 mb-14">
             <div className="bg-gradient-card rounded-xl p-7 border border-border">
               <h3 className="font-display text-lg font-semibold text-muted-foreground mb-5">Opção 1</h3>
-              <p className="font-body text-muted-foreground text-[15px] leading-[1.8]">
+              <p className="font-body text-muted-foreground text-base leading-relaxed">
                 Fechar esta página. Continuar tentando dormir todas as noites. 
                 Torcer para que, de alguma forma, o problema desapareça sozinho.
               </p>
@@ -22,14 +22,14 @@ const FooterSection = () => {
             
             <div className="bg-gradient-card rounded-xl p-7 border border-primary/30 shadow-glow">
               <h3 className="font-display text-lg font-semibold text-foreground mb-5">Opção 2</h3>
-              <p className="font-body text-foreground text-[15px] leading-[1.8]">
+              <p className="font-body text-foreground text-base leading-relaxed">
                 Dar ao seu cérebro a oportunidade de reaprender a dormir naturalmente.
                 Começar hoje o processo que já ajudou tantas pessoas a recuperar suas noites.
               </p>
             </div>
           </div>
 
-          <p className="font-body text-muted-foreground mb-5 text-[17px] leading-[1.85]">
+          <p className="font-body text-muted-foreground mb-5 text-lg leading-relaxed">
             E finalmente voltar a sentir algo que talvez esteja faltando há muito tempo:
           </p>
           <p className="font-display text-2xl md:text-3xl font-bold text-gradient mb-10">
@@ -43,14 +43,14 @@ const FooterSection = () => {
             Imagine Como Serão Suas Próximas Noites
           </h3>
           <div className="grid md:grid-cols-2 gap-10 text-left">
-            <ul className="space-y-3 font-body text-muted-foreground text-[17px] leading-[1.75]">
+            <ul className="space-y-3 font-body text-muted-foreground text-lg leading-relaxed">
               <li>• Deitar</li>
               <li>• Relaxar</li>
               <li>• Fechar os olhos</li>
               <li>• E sentir o sono chegar naturalmente</li>
               <li className="text-foreground font-medium">• Sem esforço. Sem ansiedade. Sem luta.</li>
             </ul>
-            <ul className="space-y-3 font-body text-muted-foreground text-[17px] leading-[1.75]">
+            <ul className="space-y-3 font-body text-muted-foreground text-lg leading-relaxed">
               <li>• Acordar com energia</li>
               <li>• Ter clareza mental</li>
               <li>• Sentir o corpo leve</li>
@@ -58,7 +58,7 @@ const FooterSection = () => {
             </ul>
           </div>
           
-          <p className="font-body text-muted-foreground text-center mt-8 text-[17px]">
+          <p className="font-body text-muted-foreground text-center mt-8 text-lg">
             Tudo isso começa com algo simples:
           </p>
           <p className="font-display text-xl md:text-2xl font-bold text-gradient text-center mt-3">
@@ -68,10 +68,10 @@ const FooterSection = () => {
 
         {/* Final CTA */}
         <div className="mb-14">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] font-bold mb-7 text-foreground leading-[1.15]">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-7 text-foreground leading-tight">
             Clique no Botão Abaixo Para <span className="text-gradient">Começar Agora</span>
           </h2>
-          <p className="font-body text-xl text-muted-foreground mb-10 leading-[1.85]">
+          <p className="font-body text-xl text-muted-foreground mb-10 leading-relaxed">
             Comece hoje o processo de recondicionamento do seu sono.
             <br />
             Recupere suas noites. Recupere sua energia. Recupere sua qualidade de vida.
@@ -85,7 +85,7 @@ const FooterSection = () => {
             QUERO VOLTAR A DORMIR BEM
           </Button>
           
-          <p className="font-body text-sm text-muted-foreground mt-5">
+          <p className="font-body text-base text-muted-foreground mt-5">
             Acesso imediato ao Método Recondicionamento do Sono.
           </p>
         </div>

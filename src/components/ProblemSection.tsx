@@ -5,13 +5,13 @@ const ProblemSection = () => {
     <section className="py-24 md:py-36 bg-gradient-hero">
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] font-bold mb-7 text-foreground leading-[1.15]">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-7 text-foreground leading-tight">
             Se Você Está Aqui, Provavelmente{" "}
             <span className="text-gradient">Suas Noites São Assim...</span>
           </h2>
         </div>
 
-        <div className="space-y-5 font-body text-[17px] md:text-lg text-muted-foreground leading-[1.85]">
+        <div className="space-y-5 font-body text-lg text-muted-foreground leading-relaxed">
           <p>Você deita na cama.</p>
           <p>Seu corpo está cansado.</p>
           <p>Talvez até exausto.</p>
@@ -24,7 +24,7 @@ const ProblemSection = () => {
           <p>Primeiro devagar.</p>
           <p>Depois cada vez mais rápido.</p>
           
-          <p className="py-3 leading-[1.9]">
+          <p className="py-3 leading-relaxed">
             Você lembra de coisas que aconteceram durante o dia. Coisas que precisa resolver amanhã.
             Problemas que talvez nem existam ainda.
           </p>
@@ -63,7 +63,7 @@ const ProblemSection = () => {
           <h3 className="font-display text-2xl md:text-3xl font-semibold mb-7 text-foreground text-center">
             E Então Surge Aquela <span className="text-gradient">Sensação Horrível...</span>
           </h3>
-          <p className="font-body text-lg text-muted-foreground text-center leading-[1.85]">
+          <p className="font-body text-lg text-muted-foreground text-center leading-relaxed">
             A ansiedade silenciosa. Você começa a calcular mentalmente quanto tempo ainda tem para dormir.
           </p>
         </div>
@@ -74,7 +74,7 @@ const ProblemSection = () => {
             No Dia Seguinte...
           </h3>
           
-          <div className="space-y-4 font-body text-[17px] text-muted-foreground mb-10 leading-[1.85]">
+          <div className="space-y-4 font-body text-lg text-muted-foreground mb-10 leading-relaxed">
             <p>O despertador toca.</p>
             <p>Seu corpo parece <span className="text-foreground font-medium">pesado</span>.</p>
             <p>Sua cabeça parece <span className="text-foreground font-medium">envolta em névoa</span>.</p>
@@ -96,12 +96,12 @@ const ProblemSection = () => {
             ].map((symptom, index) => (
               <div key={index} className="flex items-center gap-3.5 p-4 rounded-lg bg-secondary/50">
                 <AlertCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="font-body text-[15px] text-foreground leading-snug">{symptom}</span>
+                <span className="font-body text-base text-foreground leading-snug">{symptom}</span>
               </div>
             ))}
           </div>
 
-          <p className="font-body text-muted-foreground text-center mt-10 italic text-[17px] leading-[1.85]">
+          <p className="font-body text-muted-foreground text-center mt-10 italic text-lg leading-relaxed">
             E enquanto o dia passa... Uma preocupação silenciosa começa a surgir:
             <br />
             <span className="text-foreground font-medium">"Será que hoje à noite vai acontecer tudo de novo?"</span>
@@ -115,7 +115,7 @@ const ProblemSection = () => {
           </h3>
           
           <div className="bg-gradient-card rounded-2xl p-10 border border-border shadow-soft">
-            <p className="font-body text-lg text-muted-foreground mb-8 leading-[1.85]">
+            <p className="font-body text-lg text-muted-foreground mb-8 leading-relaxed">
               E esse ciclo começa a se repetir.
             </p>
             
@@ -128,12 +128,12 @@ const ProblemSection = () => {
               ].map((item, index) => (
                 <div key={index} className="p-5 rounded-lg bg-secondary/50 border border-border">
                   <AlertTriangle className="w-5 h-5 text-primary mx-auto mb-3" />
-                  <span className="font-body text-sm text-foreground leading-snug">{item}</span>
+                  <span className="font-body text-base text-foreground leading-snug">{item}</span>
                 </div>
               ))}
             </div>
 
-            <p className="font-body text-muted-foreground text-[17px] leading-[1.85]">
+            <p className="font-body text-muted-foreground text-lg leading-relaxed">
               Com o tempo, a própria cama começa a gerar tensão. Você deita... e seu cérebro 
               automaticamente entra em <span className="text-foreground font-medium">estado de alerta</span>.
             </p>
@@ -153,7 +153,7 @@ const TimeCard = ({ time, text }: { time: string; text: React.ReactNode }) => (
       <Clock className="w-5 h-5 text-primary" />
       <span className="font-display text-3xl font-bold text-primary">{time}</span>
     </div>
-    <p className="font-body text-muted-foreground text-[15px] leading-[1.75]">{text}</p>
+    <p className="font-body text-muted-foreground text-base leading-relaxed">{text}</p>
   </div>
 );
 

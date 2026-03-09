@@ -91,10 +91,10 @@ const FAQSection = () => {
           <span className="inline-block text-sm font-body font-medium text-primary mb-5 tracking-widest uppercase">
             Dúvidas Frequentes
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-5 leading-[1.15]">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-5 leading-tight">
             Antes de Continuar... <span className="text-gradient">Vamos Esclarecer</span>
           </h2>
-          <p className="font-body text-muted-foreground text-[17px] leading-[1.85]">
+          <p className="font-body text-muted-foreground text-lg leading-relaxed">
             É completamente normal que, depois de tentar várias soluções, você tenha algumas perguntas na cabeça.
             <br />
             Na verdade, quase todas as pessoas que hoje dormem bem novamente tiveram as mesmas dúvidas no início.
@@ -108,10 +108,10 @@ const FAQSection = () => {
               value={`item-${index}`}
               className="bg-gradient-card rounded-xl border border-border px-7 data-[state=open]:border-primary/30 data-[state=open]:shadow-glow transition-all duration-300"
             >
-              <AccordionTrigger className="font-display text-left text-foreground hover:no-underline py-6 text-[17px]">
+              <AccordionTrigger className="font-display text-left text-foreground hover:no-underline py-6 text-lg">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="font-body text-muted-foreground pb-6 leading-[1.85] whitespace-pre-line text-[15px]">
+              <AccordionContent className="font-body text-muted-foreground pb-6 leading-relaxed whitespace-pre-line text-base">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
