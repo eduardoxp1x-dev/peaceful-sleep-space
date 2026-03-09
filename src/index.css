@@ -104,10 +104,25 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  h1 { line-height: 1.15; }
+  h2 { line-height: 1.2; }
+  h3 { line-height: 1.25; }
+
+  p {
+    margin-bottom: 0.25em;
   }
 }
 

@@ -85,33 +85,33 @@ Isso significa que você não assume nenhum risco.`
 
 const FAQSection = () => {
   return (
-    <section className="py-20 md:py-32 bg-secondary/30">
+    <section className="py-24 md:py-36 bg-secondary/30">
       <div className="container mx-auto px-6 max-w-3xl">
-        <div className="text-center mb-12">
-          <span className="inline-block text-sm font-body font-medium text-primary mb-4 tracking-wider uppercase">
+        <div className="text-center mb-14">
+          <span className="inline-block text-sm font-body font-medium text-primary mb-5 tracking-widest uppercase">
             Dúvidas Frequentes
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-5 leading-[1.15]">
             Antes de Continuar... <span className="text-gradient">Vamos Esclarecer</span>
           </h2>
-          <p className="font-body text-muted-foreground">
+          <p className="font-body text-muted-foreground text-[17px] leading-[1.85]">
             É completamente normal que, depois de tentar várias soluções, você tenha algumas perguntas na cabeça.
             <br />
             Na verdade, quase todas as pessoas que hoje dormem bem novamente tiveram as mesmas dúvidas no início.
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="space-y-4">
+        <Accordion type="single" collapsible className="space-y-5">
           {faqs.map((faq, index) => (
             <AccordionItem 
               key={index} 
               value={`item-${index}`}
-              className="bg-gradient-card rounded-xl border border-border px-6 data-[state=open]:border-primary/30 data-[state=open]:shadow-glow transition-all duration-300"
+              className="bg-gradient-card rounded-xl border border-border px-7 data-[state=open]:border-primary/30 data-[state=open]:shadow-glow transition-all duration-300"
             >
-              <AccordionTrigger className="font-display text-left text-foreground hover:no-underline py-5">
+              <AccordionTrigger className="font-display text-left text-foreground hover:no-underline py-6 text-[17px]">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="font-body text-muted-foreground pb-5 leading-relaxed whitespace-pre-line">
+              <AccordionContent className="font-body text-muted-foreground pb-6 leading-[1.85] whitespace-pre-line text-[15px]">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
