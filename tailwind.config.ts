@@ -19,8 +19,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Playfair Display", "serif"],
-        body: ["Inter", "sans-serif"],
+        display: ["Cormorant Garamond", "serif"],
+        body: ["Nunito", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
