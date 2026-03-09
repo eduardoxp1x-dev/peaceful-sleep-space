@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Cormorant Garamond", "serif"],
+        display: ["DM Serif Display", "serif"],
         body: ["Nunito", "sans-serif"],
       },
       colors: {
