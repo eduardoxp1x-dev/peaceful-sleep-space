@@ -24,18 +24,18 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-6 max-w-3xl">
         {/* Intro */}
         <div className="text-center mb-20">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] font-bold mb-5 text-foreground leading-[1.15]">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-5 text-foreground leading-tight">
             Imagine Como Seria{" "}
             <span className="text-gradient">Sua Vida</span>
           </h2>
-          <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-[1.85]">
+          <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Se Isso Acontecesse
           </p>
         </div>
 
         {/* Vision - Going to Sleep */}
         <div className="bg-gradient-card rounded-3xl p-10 md:p-14 border border-primary/20 shadow-glow mb-20">
-          <div className="space-y-5 font-body text-lg text-muted-foreground text-center leading-[1.85]">
+          <div className="space-y-5 font-body text-lg text-muted-foreground text-center leading-relaxed">
             <p>Imagine deitar na cama...</p>
             <p>Sentir seu corpo relaxando.</p>
             <p className="text-foreground font-medium">E perceber que sua mente finalmente está silenciosa.</p>
@@ -46,14 +46,14 @@ const BenefitsSection = () => {
           </div>
 
           <div className="border-t border-border mt-10 pt-10">
-            <p className="font-body text-muted-foreground text-center mb-5 text-[17px]">
+            <p className="font-body text-muted-foreground text-center mb-5 text-lg">
               Agora imagine algo ainda melhor.
             </p>
-            <div className="space-y-3 text-center font-body text-muted-foreground text-[17px] leading-[1.85]">
+            <div className="space-y-3 text-center font-body text-muted-foreground text-lg leading-relaxed">
               <p>Você fecha os olhos...</p>
               <p>E alguns minutos depois...</p>
               <p className="text-foreground font-medium text-xl md:text-2xl">simplesmente apaga.</p>
-              <p className="text-sm mt-5">Sem esforço. Sem tentar. Sem lutar contra a mente.</p>
+              <p className="text-base mt-5">Sem esforço. Sem tentar. Sem lutar contra a mente.</p>
             </div>
           </div>
         </div>
@@ -64,14 +64,14 @@ const BenefitsSection = () => {
             Agora Imagine <span className="text-gradient">Acordar Pela Manhã</span>
           </h3>
           
-          <div className="space-y-4 font-body text-muted-foreground text-center text-[17px] leading-[1.85]">
+          <div className="space-y-4 font-body text-muted-foreground text-center text-lg leading-relaxed">
             <p>Sem aquela sensação de peso.</p>
             <p>Sem aquela névoa mental.</p>
             <p>Sem aquele cansaço estranho que dura o dia inteiro.</p>
           </div>
 
           <div className="mt-10 p-7 rounded-xl bg-primary/5 border border-primary/20">
-            <p className="font-body text-muted-foreground text-center text-[17px] leading-[1.85]">
+            <p className="font-body text-muted-foreground text-center text-lg leading-relaxed">
               Você acorda... respira fundo... e percebe algo que não sentia há muito tempo:
             </p>
             <p className="font-display text-2xl md:text-3xl font-bold text-gradient text-center mt-3">
@@ -87,7 +87,7 @@ const BenefitsSection = () => {
             ].map((item, index) => (
               <div key={index} className="p-5 rounded-lg bg-secondary/50 text-center">
                 <Sparkles className="w-5 h-5 text-primary mx-auto mb-3" />
-                <span className="font-body text-foreground text-[15px]">{item}</span>
+                <span className="font-body text-foreground text-base">{item}</span>
               </div>
             ))}
           </div>
@@ -99,7 +99,7 @@ const BenefitsSection = () => {
 
         {/* Benefits Grid */}
         <div className="mb-20">
-          <h3 className="font-display text-2xl md:text-[1.75rem] font-semibold text-center text-foreground mb-5">
+          <h3 className="font-display text-2xl md:text-3xl font-semibold text-center text-foreground mb-5">
             Pessoas que voltam a dormir bem relatam mudanças como:
           </h3>
           
@@ -120,31 +120,31 @@ const BenefitsSection = () => {
 
         {/* Deep Sleep Benefits */}
         <div className="bg-gradient-card rounded-2xl p-10 md:p-14 border border-border mb-20">
-          <h3 className="font-display text-2xl md:text-[1.75rem] font-semibold text-center text-foreground mb-7">
+          <h3 className="font-display text-2xl md:text-3xl font-semibold text-center text-foreground mb-7">
             Mas Existe Algo Ainda Mais Interessante
           </h3>
           
-          <p className="font-body text-muted-foreground text-center mb-3 text-[17px] leading-[1.85]">
+          <p className="font-body text-muted-foreground text-center mb-3 text-lg leading-relaxed">
             Dormir bem não melhora apenas o sono. <span className="text-foreground font-medium">Ele melhora toda a sua vida.</span>
           </p>
-          <p className="font-body text-muted-foreground text-center mb-8 text-[17px] leading-[1.85]">
+          <p className="font-body text-muted-foreground text-center mb-8 text-lg leading-relaxed">
             Isso acontece porque o sono profundo regula praticamente todo o funcionamento do corpo:
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {bodyBenefits.map((benefit, index) => (
               <div key={index} className="p-4 rounded-lg bg-secondary/50 text-center">
-                <span className="font-body text-foreground text-[15px]">{benefit}</span>
+                <span className="font-body text-foreground text-base">{benefit}</span>
               </div>
             ))}
           </div>
 
           <div className="mt-10 p-7 rounded-xl bg-primary/5 border border-primary/20">
-            <p className="font-body text-muted-foreground text-center text-[17px] leading-[1.85]">
+            <p className="font-body text-muted-foreground text-center text-lg leading-relaxed">
               Quando você dorme bem... seu cérebro literalmente se reorganiza durante a noite.
               <span className="text-foreground font-medium"> É como se cada noite de sono fosse um reset natural do organismo.</span>
             </p>
-            <p className="font-body text-center text-foreground mt-5 italic text-[17px]">
+            <p className="font-body text-center text-foreground mt-5 italic text-lg">
               Por isso pessoas que voltam a dormir bem frequentemente relatam:
               <br />
               <span className="text-gradient font-semibold">"Minha vida parece mais leve."</span>
@@ -154,7 +154,7 @@ const BenefitsSection = () => {
 
         {/* Final Vision */}
         <div className="bg-gradient-card rounded-3xl p-10 md:p-14 border border-primary/20 shadow-glow">
-          <h3 className="font-display text-2xl md:text-[1.75rem] font-semibold text-center text-foreground mb-8">
+          <h3 className="font-display text-2xl md:text-3xl font-semibold text-center text-foreground mb-8">
             Imagine Isso Acontecendo <span className="text-gradient">Com Você</span>
           </h3>
           
@@ -163,7 +163,7 @@ const BenefitsSection = () => {
               <h4 className="font-display text-lg font-semibold text-foreground mb-5">
                 Suas Próximas Noites:
               </h4>
-              <ul className="space-y-3 font-body text-muted-foreground text-[17px] leading-[1.75]">
+              <ul className="space-y-3 font-body text-muted-foreground text-lg leading-relaxed">
                 <li>• Deitar</li>
                 <li>• Relaxar</li>
                 <li>• Fechar os olhos</li>
@@ -176,7 +176,7 @@ const BenefitsSection = () => {
               <h4 className="font-display text-lg font-semibold text-foreground mb-5">
                 Seus Próximos Dias:
               </h4>
-              <ul className="space-y-3 font-body text-muted-foreground text-[17px] leading-[1.75]">
+              <ul className="space-y-3 font-body text-muted-foreground text-lg leading-relaxed">
                 <li>• Acordar com energia</li>
                 <li>• Ter clareza mental</li>
                 <li>• Sentir o corpo leve</li>
@@ -185,7 +185,7 @@ const BenefitsSection = () => {
             </div>
           </div>
 
-          <p className="font-body text-center text-muted-foreground mt-10 text-[17px]">
+          <p className="font-body text-center text-muted-foreground mt-10 text-lg">
             Tudo isso começa com algo simples:
           </p>
           <p className="font-display text-2xl md:text-3xl font-bold text-gradient text-center mt-3">

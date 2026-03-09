@@ -11,24 +11,24 @@ const HeroSection = () => {
             <span className="text-sm font-body tracking-wide text-muted-foreground">Método Recondicionamento do Sono</span>
           </div>
           
-          <h1 className="font-display text-3xl md:text-4xl lg:text-[2.75rem] font-bold leading-[1.15] mb-7">
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-7">
             <span className="text-gradient">A Verdade Estranha</span>
             <br />
             <span className="text-foreground">Sobre Pessoas Que Não Conseguem Dormir…</span>
           </h1>
           
-          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-5 leading-[1.8]">
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-5 leading-relaxed">
             E por que quanto mais você tenta dormir, mais seu cérebro parece lutar contra isso.
           </p>
 
-          <p className="font-body text-base md:text-[17px] text-muted-foreground max-w-2xl mx-auto mb-10 leading-[1.85]">
+          <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Existe um motivo pouco conhecido que faz milhares de adultos de 30 a 50 anos ficarem deitados 
             na cama por horas… completamente cansados… mas incapazes de desligar a mente.
           </p>
         </div>
 
         <div className="bg-gradient-card rounded-2xl p-10 md:p-14 border border-border shadow-soft mb-10">
-          <p className="font-body text-[17px] text-muted-foreground mb-5 leading-[1.85]">
+          <p className="font-body text-lg text-muted-foreground mb-5 leading-relaxed">
             E quando você entende o que realmente está acontecendo dentro do seu cérebro…
           </p>
           <p className="font-display text-xl md:text-2xl font-semibold text-gradient mb-5">
@@ -37,7 +37,7 @@ const HeroSection = () => {
           <p className="font-body text-lg text-foreground font-medium">
             Dormir volta a ser natural.
           </p>
-          <div className="mt-5 space-y-1.5 text-muted-foreground font-body text-sm">
+          <div className="mt-5 space-y-1.5 text-muted-foreground font-body text-base">
             <p>Sem remédios pesados.</p>
             <p>Sem técnicas absurdas.</p>
             <p>Sem depender de sorte.</p>
