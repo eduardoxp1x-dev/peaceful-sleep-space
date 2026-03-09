@@ -194,6 +194,7 @@ const PricingSection = () => {
           <Button 
             size="lg" 
             className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-body font-semibold py-6 text-lg rounded-full shadow-glow transition-all duration-300 hover:scale-[1.02] tracking-wide"
+            onClick={() => window.open('https://pay.kiwify.com.br/bPiQ3nY', '_blank')}
           >
             QUERO VOLTAR A DORMIR BEM
           </Button>
