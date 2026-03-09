@@ -24,12 +24,34 @@ const HeroSection = () => {
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
             <span className="text-gradient">A Verdade Estranha</span>
             <br />
-            <span className="text-foreground">Sobre Pessoas Que Não Conseguem Dormir</span>
+            <span className="text-foreground">Sobre Pessoas Que Não Conseguem Dormir…</span>
           </h1>
           
-          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
             E por que quanto mais você tenta dormir, mais seu cérebro parece lutar contra isso.
           </p>
+
+          <p className="font-body text-base text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+            Existe um motivo pouco conhecido que faz milhares de adultos de 30 a 50 anos ficarem deitados 
+            na cama por horas… completamente cansados… mas incapazes de desligar a mente.
+          </p>
+
+          <div className="bg-secondary/50 backdrop-blur-sm rounded-xl p-6 mb-8 max-w-xl mx-auto border border-border">
+            <p className="font-body text-foreground mb-4">
+              E quando você entende o que realmente está acontecendo dentro do seu cérebro…
+            </p>
+            <p className="font-display text-xl font-semibold text-gradient mb-4">
+              Algo surpreendente acontece:
+            </p>
+            <p className="font-body text-lg text-foreground font-medium">
+              Dormir volta a ser natural.
+            </p>
+            <div className="mt-4 space-y-1 text-muted-foreground font-body text-sm">
+              <p>Sem remédios pesados.</p>
+              <p>Sem técnicas absurdas.</p>
+              <p>Sem depender de sorte.</p>
+            </div>
+          </div>
 
           <Button 
             size="lg" 
