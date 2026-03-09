@@ -56,6 +56,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-body font-semibold px-9 py-6 text-lg rounded-full shadow-glow transition-all duration-300 hover:scale-105 tracking-wide"
+            onClick={() => window.open('https://pay.kiwify.com.br/bPiQ3nY', '_blank')}
           >
             Quero Voltar a Dormir Bem
           </Button>
