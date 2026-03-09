@@ -12,31 +12,31 @@ const HeroSection = () => {
 
         <div className="flex flex-col lg:flex-row h-full min-h-[80vh]">
           {/* Left content */}
-          <div className="flex-1 p-8 md:p-12 relative z-10 flex flex-col justify-center">
+          <div className="flex-1 p-8 md:p-14 lg:p-16 relative z-10 flex flex-col justify-center">
             <div className="animate-slide-up">
-              <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-primary/30 bg-secondary/50 backdrop-blur-sm">
+              <div className="inline-flex items-center gap-2.5 mb-8 px-5 py-2.5 rounded-full border border-primary/30 bg-secondary/50 backdrop-blur-sm">
                 <Moon className="w-4 h-4 text-primary" />
-                <span className="text-sm font-body text-muted-foreground">Método Recondicionamento do Sono</span>
+                <span className="text-sm font-body tracking-wide text-muted-foreground">Método Recondicionamento do Sono</span>
               </div>
 
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              <h1 className="font-display text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-[1.1] mb-7">
                 <span className="text-gradient">A Verdade Estranha</span>
                 <br />
                 <span className="text-foreground">Sobre Pessoas Que Não Conseguem Dormir…</span>
               </h1>
 
-              <p className="font-body text-lg md:text-xl text-muted-foreground max-w-xl mb-4 leading-relaxed">
+              <p className="font-body text-lg md:text-xl text-muted-foreground max-w-xl mb-5 leading-[1.8]">
                 E por que quanto mais você tenta dormir, mais seu cérebro parece lutar contra isso.
               </p>
 
-              <p className="font-body text-base text-muted-foreground max-w-xl mb-8 leading-relaxed">
+              <p className="font-body text-base md:text-[17px] text-muted-foreground max-w-xl mb-10 leading-[1.85]">
                 Existe um motivo pouco conhecido que faz milhares de adultos de 30 a 50 anos ficarem deitados
                 na cama por horas… completamente cansados… mas incapazes de desligar a mente.
               </p>
 
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-body font-semibold px-8 py-6 text-lg rounded-full shadow-glow transition-all duration-300 hover:scale-105"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-body font-semibold px-9 py-6 text-lg rounded-full shadow-glow transition-all duration-300 hover:scale-105 tracking-wide"
               >
                 Quero Voltar a Dormir Bem
               </Button>
